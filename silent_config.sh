@@ -44,7 +44,7 @@ KAFKA_PARTITIONS=10
 ZOOKEEPER_HOSTS=$IP1:2181,$IP2:2181,$IP3:2181
 ## turn on ability to delete topics
 #delete.topic.enable=true
-KAFKA_DELETE_TOPICS_ENABLED=true
+KAFKA_DELETE_TOPIC_ENABLED=true
 #confluent-2.0.1/etc/kafka/zookeeper.properties
 ## ZK data home
 #dataDir=$ZOOKEEPER_DATA_HOME
