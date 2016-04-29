@@ -20,3 +20,5 @@ Then do this:
 The resulting installation should allow you to start up the environment. On all three nodes run:
 
 ```/opt/apigee_kafka_home/bin/allStart.sh```
+
+That's it... Now you should have kafka-rest instances running on all three hosts listening on the default port of 8082.
